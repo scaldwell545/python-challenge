@@ -11,7 +11,7 @@ list_of_differences = []
 ##Create Boolean to skip first entry for differences of profit/loss
 first_row = True
 
-input_file = os.path.join(os.getcwd(), 'Resources', '02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv')
+input_file = os.path.join(os.getcwd(), 'Resources', 'budget_data.csv')
 with open(input_file, newline='', encoding='utf-8') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter = ',')
 
